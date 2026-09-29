@@ -1,0 +1,29 @@
+name: bengkel
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  http: ^1.1.0
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Bagian assets harus menjorok 2 spasi ke dalam di bawah 'flutter:'
+  assets:
+    - assets/logo.png
